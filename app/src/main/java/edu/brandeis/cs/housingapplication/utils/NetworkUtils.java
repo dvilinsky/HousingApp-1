@@ -72,7 +72,7 @@ public class NetworkUtils {
         return returnURL(builder.build());
     }
 
-    //There's a metric asston of code duplication here. Does anyone give a shit?
+    //TODO: There's a lot of code duplication in the three createUrl methods. Should try to eliminate
     public static URL createUrl(Map<String, String> params, String... path) {
         Uri.Builder builder = Uri.parse(BASE_URL).buildUpon();
         for (int i = 0; i < path.length; i++) {

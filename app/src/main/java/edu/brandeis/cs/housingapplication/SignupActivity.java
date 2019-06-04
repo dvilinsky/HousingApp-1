@@ -78,7 +78,6 @@ public class SignupActivity extends AppCompatActivity {
         });
     }
 
-    //Apparently not making this static creates a memory leak. Does anyone care? No.
     public class CreateUserTask extends AsyncTask<URL, Void, String> {
 
         @Override

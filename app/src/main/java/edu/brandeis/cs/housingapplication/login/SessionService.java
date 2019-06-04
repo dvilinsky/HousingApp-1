@@ -16,8 +16,7 @@ import java.util.Arrays;
 //the login database. Simulates sessions. In the future will be adding support for session tokens
 //and cookies and all that good stuff.
 public class SessionService {
-    //Id of the user in the backend. What if there's a change to the backend? Will that be
-    //reflected here? Nope.
+    //Id of the user in the backend. 
     public static String CURRENT_USER_ID = ""; //global variables considered harmful
 
     private Cursor cursor;
